@@ -9,6 +9,9 @@ sections:
 - type: document
   path: content/about/info.md
   label: Info Page
+- type: document
+  path: content/data/authors.yaml
+  label: Authors List
 - type: directory
   path: content/blog-posts
   label: Blog posts
@@ -16,9 +19,6 @@ sections:
   match: "**/*"
   templates:
   - blog
-- type: document
-  path: content/data/authors.yaml
-  label: Authors List
 - type: heading
   label: Config
 - type: document
